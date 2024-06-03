@@ -15,7 +15,7 @@
   "workbench.activityBar.location": "default", //Remove o menu lateral
   "editor.scrollbar.vertical": "auto", // Habilitado, pois ajuda a entender tamanho do arquivo
   "editor.scrollbar.horizontal": "hidden",
-  "workbench.statusBar.visible": false, // Habilita o footer. Acho útil pra verificar branch, utilizar live server e por outros motivos
+  "workbench.statusBar.visible": true, // Habilita o footer. Acho útil pra verificar branch, utilizar live server e por outros motivos
   "window.titleBarStyle": "custom",
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
@@ -47,4 +47,5 @@
   "editor.autoClosingComments": "always",
   "editor.autoClosingDelete": "always",
   "editor.autoClosingQuotes": "always",
+  "files.autoSave": "afterDelay" // Salvar automaticamente
 }
