@@ -1,0 +1,44 @@
+{
+  "symbols.hidesExplorerArrows": false,
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14, 
+  "editor.lineHeight": 1.8, // Espaçamento entre as linhas
+  "editor.rulers": [80, 120], // Min e max de caracteres até a quebra de linha
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true, 
+  "workbench.editor.labelFormat": "short", // Personaliza o nome do arquivo/pasta na aba
+  "explorer.compactFolders": false, //Quando houver apenas uma pasta dentro da outra, não deixa elas em uma única linha
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": true, //Mostra o caminho completo do arquivo
+  "workbench.activityBar.location": "default", //Remove o menu lateral
+  "editor.scrollbar.vertical": "auto", // Habilitado, pois ajuda a entender tamanho do arquivo
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.statusBar.visible": false, // Habilita o footer. Acho útil pra verificar branch, utilizar live server e por outros motivos
+  "window.titleBarStyle": "custom",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  //"apc.font.family": "JetBrains Mono",
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none", // Remove o nome explorer
+    ".editor-actions": "display: none", // Remove os ícone no canto direito
+  },
+  "workbench.layoutControl.enabled": false, // Botões para dividir a tela
+  "window.commandCenter": false, // Remove o campo search do header
+  "window.menuBarVisibility": "compact", // Desabilita a o menu de arquivos, terminal, etc
+  "explorer.fileNesting.enabled": false, // Posibilita agrupar arquivos
+  // "explorer.fileNesting.patterns": {
+  //  "package.json": ".eslint*, tsconfig*, package*, next.config*, .gitignore, postcss*"
+  //},
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
+}
