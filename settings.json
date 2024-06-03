@@ -40,5 +40,11 @@
   //  "package.json": ".eslint*, tsconfig*, package*, next.config*, .gitignore, postcss*"
   //},
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingComments": "always",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingQuotes": "always",
 }
