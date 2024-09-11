@@ -17,6 +17,14 @@
   "editor.scrollbar.horizontal": "hidden",
   "workbench.statusBar.visible": true, // Habilita o footer. Acho útil pra verificar branch, utilizar live server e por outros motivos
   "window.titleBarStyle": "custom",
+  "emmet.includeLanguages": {
+    "javascript": "jsx",
+    "ndx": "jsx"
+  },
+  "emmet.syntaxProfiles": {
+     "javascript": "javascriptreact",
+     "ndx": "javascriptreact"
+  },
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "frame": false
